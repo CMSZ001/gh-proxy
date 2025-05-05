@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
     <style>
-        /* 新增通知栏样式 */
-        .notification-bar {
-            position: static;
-            display: block; /* 新增 */
-            width: calc(100% + 20px); /* 新增 */
-            margin: -20px -20px 20px -20px; /* 新增 */
-            background: #1E90FF;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            text-decoration: none;
-            z-index: 1000;
-            transition: background 0.2s;
-            box-sizing: content-box; /* 新增 */
-        }
         .notification-bar:hover {
             background: #1C86EE;
         }
@@ -128,7 +113,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="icon" href="https://www.helloimg.com/i/2025/01/12/6783841a2aa9e.png" type="image/x-icon"/>
         <script>
             function toSubmit(e) {
                 e.preventDefault()
@@ -139,9 +123,6 @@
         <title>GitHub 文件加速</title>
     </head>
     <body class="flex">
-        <p class="notification-bar">
-            欢迎来到 Github Proxy！
-        </p>
 
         <h1 style="margin-bottom: 50px">
             <img src="https://www.helloimg.com/i/2025/02/01/679d80bfee0d1.png" style="width: 1.5em;margin-right: .2em;vertical-align: bottom;">GitHub 文件加速
